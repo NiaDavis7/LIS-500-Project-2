@@ -1,9 +1,20 @@
 /***** OVERALL *****/
 
-/***** INDEX PAGE *****/
 /* Style for navigator bar */
 .navigator{
 }
+
+/* Style for footer */
+.footer{
+}
+
+h1{
+}
+
+h2{
+}
+
+/***** INDEX PAGE *****/
 
 /* Style for main content */
 .content{
@@ -13,14 +24,38 @@
 .homeImage{
 }
 
-/* Style for home image */
-.footer{
+/***** ABOUT US SECTION - GENERAL FOR CONSISTENCY *****/
+
+/* Style for our names */
+.name{
 }
 
-/***** ELIJAH ABOUT ME *****/
+/* Style for our descritions of ourselves */
+.descriptions{
+}
 
-/***** NIA ABOUT ME *****/
+/* Style for our descritions of ourselves */
+.descriptions{
+}
 
 /***** TECH HEROS *****/
 
 /***** RESOURCES *****/
+
+/* Style for Big Title */
+.resourcesTitle{
+}
+
+/* Implicit Bias Defintion */
+.biasDefinition{
+}
+
+/* Style for the definitions - keeping it general for both */
+.ourDefinition{
+}
+
+/* Style for our thoughts - keeping it general for both */
+.thoughtDef{
+}
+
+
