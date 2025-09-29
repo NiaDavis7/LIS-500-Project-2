@@ -32,15 +32,15 @@
   font-size: 1rem;
 }
 
+
+/***** INDEX PAGE *****/
+
 /* Full Page Background */
 body {
   background-color: #DFBBB1 
   margin: 0;                 
   font-family: 'Georgia', serif;
 }
-
-
-/***** INDEX PAGE *****/
 
 /* Style for main content */
 .content{
