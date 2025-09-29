@@ -28,7 +28,7 @@ html, body {
 }
 
 .navigator a {
-  color: #5E4352;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -43,7 +43,7 @@ html, body {
 .footer {
   background-color: #BE3E82;
   font-family: 'Georgia', serif;
-  color: #5E4352;
+  color: white;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
