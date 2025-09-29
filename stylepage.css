@@ -76,6 +76,13 @@ body {
   margin: 0 auto;
 }
 
+.caption {
+  text-align: center;   
+  margin-top: 0.5rem;    
+  font-size: 1rem;
+  color: #5E4352;  
+}
+
 /* Fun Text for main title */
 .mainTitle {
   font-family: 'Boldonse', system-ui, sans-serif; 
