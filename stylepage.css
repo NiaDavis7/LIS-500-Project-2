@@ -44,15 +44,23 @@ body {
 
 /* Style for main content */
 .content{
+  text-align: center;
+  color: #5E4352;
+  font-family: 'Georgia', serif;
 }
 
 /* Style for home image */
 .homeImage{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Fun Text for main title */
 .mainTitle {
   font-family: 'Boldonse', system-ui, sans-serif; 
+  text-align: center;
   font-weight: 400;     
   font-style: normal;  
   color: ##5E4352;       
