@@ -190,7 +190,7 @@ h2, h3 {
   text-align: center;
   background-color: #E43F6F;   
   color: white;
-  width: 70%;                  /* narrower box than full width */
+  width: 60%;                  /* narrower box than full width */
   margin: 1rem auto;           /* centers horizontally */
   padding: 1rem 1.5rem;
   border-radius: 10px;
