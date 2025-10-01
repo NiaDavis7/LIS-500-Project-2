@@ -76,34 +76,34 @@ body {
   font-family: 'Georgia', serif;
 }
 
-/* Style for main content */
-.content{
-  text-align: center;
+/* Style for Main Content - Placing image next to words  */
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+/* Words */
+.content {
+  max-width: 500px;
   color: #5E4352;
   font-family: 'Georgia', serif;
-  font-size: 1.3rem;   
+  font-size: 1.3rem;
+  text-align: left;
 }
 
-figure {
-  text-align: center; /* centers inline/inline-block children */
-  margin: 1rem 0;     /* space above and below figure */
-}
-
+/* Words */
 .homeImage {
   width: 500px;
   height: auto;
-  display: inline-block;   /* inline-block works with figure text-align */
-  border: 5px solid #F56476;  
+  border: 5px solid #F56476;
   border-radius: 10px;
+  display: block;
 }
 
-.caption {
-  font-family: 'Georgia', serif;
-  text-align: center;
-  color: #5E4352;
-  margin-top: 0.5rem;
-  font-size: 1rem;
-}
 
 /* Fun Text for main title */
 .mainTitle {
