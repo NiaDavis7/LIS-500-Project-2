@@ -77,7 +77,7 @@ figure {
   width: 500px;
   height: auto;
   display: inline-block;   /* inline-block works with figure text-align */
-  border: 5px solid #E43F6F;  
+  border: 5px solid #F56476;  
   border-radius: 10px;
 }
 
@@ -183,21 +183,27 @@ h2, h3 {
   line-height: 1.5;
 }
 
-/* Links section */
-a {
+.linksBox {
+  background-color: #F56476; 
+  color: white;                
+  width: 70%;              
+  margin: 1.5rem auto;        
+  padding: 1.5rem;       
+  border-radius: 10px;    
+  text-align: center;         
   font-family: 'Georgia', serif;
-  color: #5E4352;
+}
+
+.linksBox a {
+  color: white;                /* links in box stay white */
   text-decoration: none;
 }
 
-a:hover {
+.linksBox a:hover {
   text-decoration: underline;
-  color: #F56476;
+  color: #DFBBB1;              /* subtle hover effect in contrast with pink */
 }
 
-/* Keep resource links centered */
-p {
-  text-align: center;
-  margin: 0.5rem 0;
+.linksBox p {
+  margin: 0.5rem 0;            /* spacing between links */
 }
-
