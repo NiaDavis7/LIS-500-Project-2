@@ -50,6 +50,22 @@ html, body {
   font-weight: bold;
 }
 
+/* Fun rainbow effect (googled for help) */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  width: 50px;       /* width of the rainbow strip */
+  height: 100%;
+  background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+  opacity: 0.3;      /* make it subtle */
+  pointer-events: none; /* doesn’t block clicks */
+}
+
+body::before { left: 0; }
+body::after  { right: 0; }
+
 
 /***** INDEX PAGE *****/
 
