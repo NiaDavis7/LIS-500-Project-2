@@ -103,7 +103,7 @@ body {
   font-weight: 400;
   font-style: normal;  
   color: ##5E4352;  
-  font-size: 2rem;        
+  font-size: 3rem;        
   margin-top: 1rem;      
 }
 
@@ -111,8 +111,10 @@ body {
 .usImage {
   display: block;      
   margin: 1rem auto;     
-  width: 250px;           
-  height: auto;           
+  width: 350px;           
+  height: auto;   
+  border: 5px solid #E43F6F;  /* pink boarder like description box */
+  border-radius: 10px;
 }
 
 /* Style for our descritions of ourselves */
