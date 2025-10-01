@@ -145,26 +145,55 @@ body {
 /***** RESOURCES *****/
 
 /* Style for Big Title */
-.resourcesTitle{
+
+/* Title */
+.resourcesTitle {
   font-family: 'Boldonse', system-ui, sans-serif; 
-  text-align: center;
-  font-weight: 400;     
-  font-style: normal;  
-  color: #5E4352;       
   text-align: center;   
-  font-size: 2.5rem;   
+  color: #5E4352;  
+  font-size: 2.5rem;        
+  margin-top: 2rem; 
+  margin-bottom: 1.5rem;    
 }
 
-/* Implicit Bias Defintion */
-.biasDefinition{
+/* Subheadings (like Implicit Bias, Intersectionality) */
+h2, h3 {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: #5E4352;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Style for the definitions - keeping it general for both */
-.ourDefinition{
+/* Shared style for definition boxes */
+.ourDefinition, 
+.thoughtDef {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  background-color: #E43F6F;   
+  color: white;
+  width: 70%;                  /* narrower box than full width */
+  margin: 1rem auto;           /* centers horizontally */
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  line-height: 1.5;
 }
 
-/* Style for our thoughts - keeping it general for both */
-.thoughtDef{
+/* Links section */
+a {
+  font-family: 'Georgia', serif;
+  color: #5E4352;
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: #E43F6F;
+}
+
+/* Keep resource links centered */
+p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
 
