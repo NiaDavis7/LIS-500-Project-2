@@ -102,7 +102,7 @@ body {
   text-align: center;   
   font-weight: 400;
   font-style: normal;  
-  color: #5E4352;  
+  color: #5E4352 !important;  
   font-size: 3rem;        
   margin-top: 2rem; 
   margin-bottom: 0.5rem;     
@@ -116,6 +116,14 @@ body {
   height: auto;   
   border: 5px solid #E43F6F;  /* pink boarder like description box */
   border-radius: 10px;
+}
+
+/* Follow Up Sentance */
+.followUp {
+  text-align: center; 
+  color: #5E4352;        
+  font-family:'Georgia', serif;
+  margin-top: 0.5rem;    
 }
 
 /* Style for our descritions of ourselves */
@@ -139,7 +147,7 @@ body {
   text-align: center;
   font-weight: 400;     
   font-style: normal;  
-  color: ##5E4352;       
+  color: #5E4352;       
   text-align: center;   
   font-size: 2.5rem;   
 }
