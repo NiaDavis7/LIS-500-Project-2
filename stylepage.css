@@ -73,7 +73,8 @@ body {
   width: 500px;
   height: auto;
   display: block;
-  margin: -1rem auto 0 auto; /* moves up by 1rem */
+  border: 5px solid #F56476;  
+  border-radius: 10px;
 }
 
 
