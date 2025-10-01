@@ -73,8 +73,9 @@ body {
   width: 500px;
   height: auto;
   display: block;
-  border: 5px solid #F56476;  
+  border: 5px solid #E43F6F;  
   border-radius: 10px;
+  margin: 0.5rem auto 0 auto; /* centers & small gap above */
 }
 
 
