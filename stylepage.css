@@ -78,12 +78,26 @@ body {
   margin: 0.5rem auto 0 auto; /* centers & small gap above */
 }
 
+figure {
+  text-align: center; /* centers inline/inline-block children */
+  margin: 1rem 0;     /* space above and below figure */
+}
+
+.homeImage {
+  width: 500px;
+  height: auto;
+  display: inline-block;   /* inline-block works with figure text-align */
+  border: 5px solid #E43F6F;  
+  border-radius: 10px;
+  margin-top: 0.5rem;      /* space above image */
+}
 
 .caption {
-  text-align: center;   
-  margin-top: 0.5rem;    
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: #5E4352;
+  margin-top: 0.5rem;
   font-size: 1rem;
-  color: #5E4352;  
 }
 
 /* Fun Text for main title */
