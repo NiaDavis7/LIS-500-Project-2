@@ -73,7 +73,7 @@ body {
   width: 500px;
   height: auto;
   display: block;
-  border: 5px solid #E43F6F;  
+  border: 5px solid #F56476;  
   border-radius: 10px;
   margin: 0.5rem auto 0 auto; /* centers & small gap above */
 }
@@ -92,7 +92,7 @@ body {
   text-align: center;
   font-weight: 400;     
   font-style: normal;  
-  color: ##5E4352;       
+  color: #5E4352;       
   text-align: center;   
   font-size: 2.5rem;    
 }
@@ -189,7 +189,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #E43F6F;
+  color: #F56476;
 }
 
 /* Keep resource links centered */
