@@ -192,8 +192,15 @@ h2, h3 {
   font-family: 'Georgia', serif;
 }
 
+.linksBox h2,
+.linksBox h3 {
+  color: white;           /* white text inside the pink box */
+  text-align: center;     /* center headings */
+  margin-bottom: 0.5rem;  /* spacing below the heading */
+}
+
 .linksBox a {
-  color: white;                /* links in box stay white */
+  color: #5E4352;                
   text-decoration: none;
 }
 
