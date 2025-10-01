@@ -79,7 +79,6 @@ figure {
   display: inline-block;   /* inline-block works with figure text-align */
   border: 5px solid #E43F6F;  
   border-radius: 10px;
-  margin-top: 0.5rem;      /* space above image */
 }
 
 .caption {
