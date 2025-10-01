@@ -98,10 +98,21 @@ body {
 
 /* Style for our names */
 .name{
+  font-family: 'Boldonse', system-ui, sans-serif; 
+  text-align: center;   
+  font-weight: 400;
+  font-style: normal;  
+  color: ##5E4352;  
+  font-size: 2rem;        
+  margin-top: 1rem;      
 }
 
-/* Style for our descritions of ourselves */
-.descriptions{
+/* Style for our images */
+.usImage {
+  display: block;      
+  margin: 1rem auto;     
+  width: 250px;           
+  height: auto;           
 }
 
 /* Style for our descritions of ourselves */
