@@ -68,16 +68,6 @@ body {
   font-size: 1.3rem;   
 }
 
-/* Style for home image */
-.homeImage {
-  width: 500px;
-  height: auto;
-  display: block;
-  border: 5px solid #F56476;  
-  border-radius: 10px;
-  margin: 0.5rem auto 0 auto; /* centers & small gap above */
-}
-
 figure {
   text-align: center; /* centers inline/inline-block children */
   margin: 1rem 0;     /* space above and below figure */
