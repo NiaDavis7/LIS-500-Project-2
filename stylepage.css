@@ -228,3 +228,35 @@ h2, h3 {
 .linksBox p {
   margin: 0.5rem 0;            /* spacing between links */
 }
+
+/***** PROJECT STATEMENT *****/
+.projectTitle {
+  font-family: 'Boldonse', system-ui, sans-serif; 
+  text-align: center;   
+  color: #5E4352;  
+  font-size: 2.5rem;        
+  margin-top: 2rem; 
+  margin-bottom: 1.5rem;    
+}
+
+h2, h3 {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: #5E4352;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.text{
+  background-color: #E43F6F;  
+  color: white;             
+  width: 60%;                  /* makes the block smaller than full page */
+  margin: 1rem auto;           /* centers the block horizontally and adds vertical spacing */
+  padding: 1.5rem;             
+  border-radius: 10px;         
+  text-align: center; 
+  font-size: 1.1rem;
+}
+
+/***** TEACHABLE MACHINES *****/
+
