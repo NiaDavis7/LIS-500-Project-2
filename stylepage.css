@@ -247,15 +247,20 @@ h2, h3 {
   margin-bottom: 0.5rem;
 }
 
-.text-box{
-  background-color: #E43F6F;  
-  color: white;             
-  width: 60%;                  /* makes the block smaller than full page */
-  margin: 1rem auto;           /* centers the block horizontally and adds vertical spacing */
-  padding: 1.5rem;             
-  border-radius: 10px;         
-  text-align: center; 
+.text-box {
+  background-color: #E43F6F;
+  color: white;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
   font-size: 1.1rem;
+  text-align: center; 
+}
+
+.text-box ul {
+  text-align: left;       /* restore normal list alignment */
+  margin-left: 2rem;      /* so bullets appear nice */
 }
 
 /* Change bullet type to circles */
