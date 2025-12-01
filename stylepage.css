@@ -258,6 +258,11 @@ h2, h3 {
   font-size: 1.1rem;
 }
 
+/* Change bullet type to circles */
+ul {
+  list-style-type: circle;
+}
+
 /***** TEACHABLE MACHINES *****/
 .teachableTitle {
   font-family: 'Boldonse', system-ui, sans-serif; 
