@@ -33,9 +33,11 @@
    <p class="text"></p>
       
    <h2>Process</h2>
-   <p class="text">
+   <div class="text-box">
+     <p>
 We began our project using Google’s Teachable Machines platform, selecting the stages of a banana’s ripeness as our focus. Our goal was to train a model capable of distinguishing between four categories:
-
+    </p>
+     
   <!-- Bullet Points -->
       <ul>
   <li>Overripe banana (too late in its development)</li>
@@ -43,8 +45,10 @@ We began our project using Google’s Teachable Machines platform, selecting the
   <li>Perfect banana</li>
   <li>No banana, which served as a control to test.</li>
       </ul>
+    <p>
      To build our dataset, each team member collected a banana and captured multiple bursts of images using a webcam from different angles. In total, we gathered approximately 200–300 images per class, ensuring a diverse set of examples for training. Once the dataset was complete, we moved on to training the model. At first, the machine successfully distinguished between the different banana stages. However, when we introduced other objects, such as an orange, it misclassified them as overripe bananas. We realized this issue stemmed from the No Banana class, which had only been trained on empty backgrounds. As a result, the model lacked exposure to non-banana objects and defaulted to misclassification. To address this, we expanded the No Banana class by adding roughly 200 additional images featuring a variety of fruits and objects. This provided the model with greater diversity and helped it learn that “no banana” could mean the presence of other items, not just empty space. After retraining, the algorithm improved significantly: it was able to correctly identify both non-banana objects and distinguish them from bananas at different stages of ripeness.
    </p>
+   </div>
       
    <h2>Analysis</h2>
    <p class="text"></p>
