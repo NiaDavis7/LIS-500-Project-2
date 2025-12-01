@@ -247,6 +247,19 @@ h2, h3 {
   margin-bottom: 0.5rem;
 }
 
+/* Other two text boxes */
+.text{
+  background-color: #E43F6F;
+  color: white;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center; 
+}
+
+/* This section is for the process since it has bullet points and needed to be formatted differently */
 .text-box {
   background-color: #E43F6F;
   color: white;
