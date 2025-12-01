@@ -281,6 +281,10 @@ ul {
   list-style-type: circle;
 }
 
+.center-text {
+  text-align: center;
+}
+
 /***** TEACHABLE MACHINES *****/
 .teachableTitle {
   font-family: 'Boldonse', system-ui, sans-serif; 
