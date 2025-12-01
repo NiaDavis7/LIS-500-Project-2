@@ -247,7 +247,7 @@ h2, h3 {
   margin-bottom: 0.5rem;
 }
 
-.text{
+.text-box{
   background-color: #E43F6F;  
   color: white;             
   width: 60%;                  /* makes the block smaller than full page */
