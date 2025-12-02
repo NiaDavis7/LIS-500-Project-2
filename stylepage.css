@@ -257,6 +257,7 @@ h2, h3 {
   border-radius: 10px;
   font-size: 1.1rem;
   text-align: center; 
+  font-family: 'Georgia', serif;
 }
 
 /* This section is for the process since it has bullet points and needed to be formatted differently */
@@ -269,6 +270,7 @@ h2, h3 {
   border-radius: 10px;
   font-size: 1.1rem;
   text-align: center; 
+  font-family: 'Georgia', serif;
 }
 
 .text-box ul {
@@ -301,12 +303,13 @@ ul {
 
 .definitionTM {
   background-color: #F56476; 
-  color: white;                
-  width: 70%;              
-  margin: 1.5rem auto;        
-  padding: 1.5rem;       
-  border-radius: 10px;    
-  text-align: center;         
+  color: white;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center; 
   font-family: 'Georgia', serif;
 }
 
