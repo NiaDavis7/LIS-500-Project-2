@@ -321,17 +321,6 @@ ul {
   padding: 1rem;
 }
 
-/* Left column (long image) */
-.left {
-  flex: 0 0 30%;
-}
-
-.right {
-  flex: 0 0 70%;
-  display: grid;
-  grid-template-rows: 30% 70%;
-  gap: 1rem;
-}
 
 /* Image styling */
 figure {
