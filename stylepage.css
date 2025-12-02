@@ -313,18 +313,18 @@ ul {
 .container {
   display: flex;
   gap: 1rem;
-  max-width: 1200px;
+  max-width: 700px;
   margin: 1rem auto;
   padding: 1rem;
 }
 
 /* Left column (long image) */
 .left {
-  flex: 1 1 60%;
+  flex: 0 0 30%;
 }
 
 .right {
-  flex: 0 0 38%;
+  flex: 0 0 70%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
