@@ -31,7 +31,9 @@
       
     <!-- Our Project Statement -->
    <h2>Project Scope</h2>
-   <p class="text">text goes here</p>
+   <p class="text">
+    For this project, we made a machine learning model using the Teaching Machine by Google. We decided to make an emotion classifier that shows three stages of ripeness of a banana, with those being too early, perfect, and too ripe, along with a control of no bananas. We will show the working model on the webpage as well as a demo video. While doing this, we were able to connect Joy Buolamwini’s Unmasking AI, which helped us understand how bias, fairness, and representation show up in our everyday lives, along with simple projects like this one.
+   </p>
       
    <h2>Process</h2>
    <div class="text-box">
@@ -47,12 +49,14 @@ We began our project using Google’s Teachable Machines platform, selecting the
   <li>No banana, which served as a control to test.</li>
       </ul>
     <p>
-     To build our dataset, each team member collected a banana and captured multiple bursts of images using a webcam from different angles. In total, we gathered approximately 200–300 images per class, ensuring a diverse set of examples for training. Once the dataset was complete, we moved on to training the model. At first, the machine successfully distinguished between the different banana stages. However, when we introduced other objects, such as an orange, it misclassified them as overripe bananas. We realized this issue stemmed from the No Banana class, which had only been trained on empty backgrounds. As a result, the model lacked exposure to non-banana objects and defaulted to misclassification. To address this, we expanded the No Banana class by adding roughly 200 additional images featuring a variety of fruits and objects. This provided the model with greater diversity and helped it learn that “no banana” could mean the presence of other items, not just empty space. After retraining, the algorithm improved significantly: it was able to correctly identify both non-banana objects and distinguish them from bananas at different stages of ripeness.
+     To build our dataset, each team member collected a banana and captured multiple bursts of images using a webcam from different angles. In total, we gathered approximately 200–300 images per class, ensuring a diverse set of examples for training. Once the dataset was complete, we moved on to training the model. At first, the machine successfully distinguished between the different banana stages. However, when we introduced other objects, such as an orange, it misclassified them as overripe bananas. We realized this issue stemmed from the No Banana class, which had only been trained on empty backgrounds. As a result, the model lacked exposure to non-banana objects and defaulted to misclassification. To address this, we expanded the No Banana class by adding roughly 200 additional images featuring a variety of fruits and objects. This provided the model with greater diversity and helped it learn that “no banana” could mean the presence of other items, not just empty space. After retraining, the algorithm improved significanty and was able to correctly identify both non-banana objects and distinguish them from bananas at different stages of ripeness. Still, however, it wasn't perfect and when we tried to use a google image of a perfect banana, it again wasn't able to identify it. 
    </p>
    </div>
       
    <h2>Analysis</h2>
-   <p class="text">text goes here</p>
+   <p class="text">
+     During the process of building our machine learning model, there were moments where we connected parts of the process to some of the key concepts we learned throughout this course. We learned that algorithmic bias can have negative effects on the identities that are misrepresented or erased from these systems. In order to eliminate these issues regarding algorithmic bias, programmers must be willing to take the extra steps to ensure that their models are accessible and inclusive to all. This concept made us realize early on that we need a plethora of pictures that showed different types of bananas that matched the categories. We also knew that we needed different representations of items that weren’t bananas (that may look like one) in order for the model to understand that perceiving a banana is more nuanced than what it may seem. That understanding mimics Buolamwini’s goal in stopping the erasure of BIPOC individuals in facial recognition software. To perceive someone by their race or ethnicity is far more nuanced than the simple coding that was once acceptable for machine learning models to work based off of. By developing the coding to be aware of the many features and characteristics of an individual that would make them BIPOC, the model is more inclusive and has a better understanding of what a general population would look like for it to perform its original function(s).
+     </p>
       
 <p class="followUp">For project three, we have added Joe Weckworth to our group. He contributed to this page. </p>
   
