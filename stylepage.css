@@ -367,11 +367,11 @@ button:hover {
 }
 
 .bordered {
-  border: 5px solid #F56476;  /* pink border */
-  border-radius: 10px;        /* rounded corners */
+  border: 5px solid #F56476;  
+  border-radius: 10px;      
   display: block;
-  margin: 1rem auto;          /* centers the image */
-  max-width: 90%;             /* keeps it responsive */
+  margin: 1rem auto;  
+  width: 300px; 
   height: auto;
 }
 
