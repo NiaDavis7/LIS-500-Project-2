@@ -340,25 +340,26 @@ button {
   background-color: #F56476;
   border: none;
   color: white;
-  padding: 6px 12px;
-  font-size: 14px;
+  padding: 16px 32px;         /* bigger padding */
+  font-size: 18px;            /* larger text */
   font-family: 'Georgia', serif;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
-  display: inline-block;      /* prevents full-width stretch */
-  margin: 10px auto;          /* adds spacing and centers */
+  display: block;             /* full-width block element */
+  margin: 20px auto;          /* centers horizontally */
 }
+
 
 
 button:hover {
   background-color: #5E4352;   
 }
 
-#webcam-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+#webcam-container canvas {
+  display: block;
+  margin: 0 auto;
 }
+
 
 #label-container {
   text-align: center;
