@@ -347,4 +347,20 @@ img {
   object-fit: cover;
 }
 
+button {
+  background-color: #F56476;   
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5E4352;   
+}
+
+
 
