@@ -351,12 +351,13 @@ button {
   background-color: #F56476;   
   border: none;
   color: white;
-  padding: 12px 24px;
-  font-size: 16px;
+  padding: 2px 6px;   /* very small padding */
+  font-size: 10px;    /* very small text */
   font-family: 'Georgia', serif;
-  border-radius: 6px;
+  border-radius: 3px; /* tighter corners */
   cursor: pointer;
 }
+
 
 button:hover {
   background-color: #5E4352;   
