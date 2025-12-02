@@ -326,7 +326,7 @@ ul {
 .right {
   flex: 0 0 70%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 30% 70%;
   gap: 1rem;
 }
 
