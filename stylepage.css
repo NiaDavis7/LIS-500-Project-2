@@ -348,19 +348,32 @@ img {
 }
 
 button {
-  background-color: #F56476;   
+  background-color: #F56476;
   border: none;
   color: white;
-  padding: 2px 6px;   /* very small padding */
-  font-size: 10px;    /* very small text */
+  padding: 6px 12px;
+  font-size: 14px;
   font-family: 'Georgia', serif;
-  border-radius: 3px; /* tighter corners */
+  border-radius: 4px;
   cursor: pointer;
+  display: inline-block;      /* prevents full-width stretch */
+  margin: 10px auto;          /* adds spacing and centers */
 }
 
 
 button:hover {
   background-color: #5E4352;   
+}
+
+#webcam-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#label-container {
+  text-align: center;
+  margin-top: 10px;
 }
 
 
