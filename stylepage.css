@@ -376,7 +376,8 @@ button:hover {
 }
 
 .video-box {
-  width: 100%;
+  max-width: 600px;   
+  margin: 1.5rem auto;  /* centers the video on the page */
   overflow: hidden;
   border-radius: 10px;
   border: 3px solid #E43F6F; 
@@ -386,6 +387,8 @@ video {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 10px;  /*rounds the video corners too */
 }
+
 
 
