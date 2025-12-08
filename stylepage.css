@@ -375,7 +375,7 @@ button:hover {
   height: auto;
 }
 
-.video-container {
+.video-box {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
